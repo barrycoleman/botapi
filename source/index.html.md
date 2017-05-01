@@ -3,13 +3,11 @@ title: API Reference
 
 language_tabs:
   - shell
-  - ruby
   - python
-  - javascript
 
 toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
-  - <a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a>
+  - <a href='https://my.agent.ai/'>Agent.ai Console</a>
+  - <span>&copy; 2017 Copyright Agent.ai, Inc.</span>
 
 includes:
   - errors
@@ -19,21 +17,13 @@ search: true
 
 # Introduction
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+Welcome to the Agent.ai API reference documentation. This API documentation covers both events that you receive via webhooks and calls that you can make back to the Agent.ai server. 
 
-We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
-
-This example API documentation page was created with [Slate](https://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
+We have language bindings here for cURL and Python. You can, of course, code your webhook implementations in any programming language you like.
 
 # Authentication
 
 > To authorize, use this code:
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-```
 
 ```python
 import kittn
@@ -47,19 +37,8 @@ curl "api_endpoint_here"
   -H "Authorization: meowmeowmeow"
 ```
 
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-```
-
 > Make sure to replace `meowmeowmeow` with your API key.
 
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
-
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
-
-`Authorization: meowmeowmeow`
 
 <aside class="notice">
 You must replace <code>meowmeowmeow</code> with your personal API key.
