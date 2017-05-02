@@ -19,7 +19,7 @@ search: true
 
 Welcome to the Agent.ai API reference documentation. This API documentation covers both events that you receive via webhooks and calls that you can make back to the Agent.ai server. 
 
-We have language bindings here for cURL and Python. You can, of course, code your webhook implementations in any programming language you like.
+We have language examples here for cURL and Python. Of course, you can code your webhook implementations in any programming language you like. The Agent.ai platform will call webhooks using HTTP(S), AWS Lambda or AWS API Gateway calls.
 
 # Authentication
 
